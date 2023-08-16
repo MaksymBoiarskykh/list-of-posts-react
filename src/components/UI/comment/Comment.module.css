@@ -1,0 +1,11 @@
+.CommentBlock {
+  padding: 15px 0;
+  border-bottom: 5px solid rgb(175, 199, 185);
+  margin-bottom: 10px;
+}
+
+.CommentUser {
+  margin: 0 0 10px;
+  font-size: 25px;
+  color: rgb(89, 125, 104);
+}

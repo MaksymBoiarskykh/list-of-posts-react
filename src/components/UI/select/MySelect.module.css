@@ -1,0 +1,7 @@
+.MySelect {
+  border: 2px solid rgb(147, 185, 163);
+  border-radius: 2px;
+  width: 35%;
+  margin-right: 20px;
+  padding: 5px 15px;
+}

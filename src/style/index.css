@@ -1,0 +1,79 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 992px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+form * {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  color: rgb(89, 125, 104);
+  padding: 20px;
+}
+
+.post {
+  margin: 0 auto;
+  border: 2px solid rgb(147, 185, 163);
+  border-radius: 2px;
+  padding: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post__info_block {
+  margin-right: 10px;
+}
+
+.post__btn_block {
+  display: flex;
+}
+
+.post__btn_block button {
+  margin: 0 0 0 5px;
+}
+
+.filter-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+/* animation */
+.post-enter {
+  opacity: 0;
+  transform: translateX(-400px);
+}
+.post-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 250ms ease-in;
+}
+.post-exit {
+  opacity: 1;
+}
+.post-exit-active {
+  opacity: 0;
+  transform: translateX(400px);
+  transition: all 500ms ease-in;
+}
+/* login */
+.login_block {
+  width: 70%;
+  margin: 0 auto;
+}
